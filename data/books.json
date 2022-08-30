@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "bookName": "Anna Karenina",
+    "authorName": "Leo Tolstoy",
+    "bookState": "AVAILABLE"
+  },
+  {
+    "id": 2,
+    "bookName": "War and Peace",
+    "authorName": "Leo Tolstoy",
+    "bookState": "NOT_AVAILABLE"
+  },
+  {
+    "id": 3,
+    "bookName": "The Great Gatsby",
+    "authorName": "F. Scott Fitzgerald",
+    "bookState": "NOT_AVAILABLE"
+  },
+  {
+    "id": 4,
+    "bookName": "Lolita",
+    "authorName": "Vladimir Nabokov",
+    "bookState": "AVAILABLE"
+  },
+  {
+    "id": 5,
+    "bookName": "Madame Bovary",
+    "authorName": "Gustave Flaubert",
+    "bookState": "AVAILABLE"
+  }
+]
