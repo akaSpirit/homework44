@@ -1,17 +1,23 @@
 [
   {
-    "userID": "1",
+    "empID": 1,
     "firstName": "Marco",
-    "lastName": "Polo"
+    "lastName": "Polo",
+    "readID": [1, 2, 3],
+    "readNowID": [2, 4]
   },
   {
-    "userID": "2",
+    "empID": 2,
     "firstName": "Winston",
-    "lastName": "Duarte"
+    "lastName": "Duarte",
+    "readID": [2],
+    "readNowID": [3]
   },
   {
-    "userID": "3",
+    "empID": 3,
     "firstName": "Amos",
-    "lastName": "Burton"
+    "lastName": "Burton",
+    "readID": [3],
+    "readNowID": [0]
   }
 ]

@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecb1e9bc-f954-4da8-aaa0-22dfc2d680dd" name="Changes" comment="created project">
+    <list default="true" id="ecb1e9bc-f954-4da8-aaa0-22dfc2d680dd" name="Changes" comment="added files and some logic">
+      <change afterPath="$PROJECT_DIR$/data/employee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/employees.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/employee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework44.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Homework44.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/books.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/books.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/employees.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/employees.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/images/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/info.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson44/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson44/BookModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson44/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson44/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson44/Lesson44Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson44/Lesson44Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson44/SampleDataModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson44/EmployeeModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +28,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -33,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "project.structure.last.edited": "Modules",
@@ -78,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661791583025</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added files and some logic">
+      <created>1661842489984</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661842489984</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +115,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created project" />
-    <option name="LAST_COMMIT_MESSAGE" value="created project" />
+    <MESSAGE value="added files and some logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="added files and some logic" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lesson44/FileService.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lesson44/FileService.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

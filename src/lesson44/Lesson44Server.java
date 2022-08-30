@@ -17,7 +17,12 @@ public class Lesson44Server extends BasicServer {
     public Lesson44Server(String host, int port) throws IOException {
         super(host, port);
         registerGet("/books", this::bookHandler);
+        registerGet("/info", this::infoHandler);
+        registerGet("/employees", this::employeesHandler);
+        registerGet("/employee", this::employeeHandler);
     }
+
+
 
 
     private static Configuration initFreeMarker() {
@@ -42,7 +47,16 @@ public class Lesson44Server extends BasicServer {
     }
 
     private void bookHandler(HttpExchange exchange) {
-        renderTemplate(exchange, "books.html", new SampleDataModel());
+        renderTemplate(exchange, "books.html", new BookModel());
+    }
+    private void infoHandler(HttpExchange exchange) {
+        renderTemplate(exchange, "info.html", new BookModel());
+    }
+    private void employeesHandler(HttpExchange exchange) {
+        renderTemplate(exchange, "employees.html", new EmployeeModel());
+    }
+    private void employeeHandler(HttpExchange exchange) {
+        renderTemplate(exchange, "employee.html", new EmployeeModel());
     }
 
     protected void renderTemplate(HttpExchange exchange, String templateFile, Object dataModel) {

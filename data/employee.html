@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Books</title>
+    <title>Employee</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
           integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -18,22 +18,23 @@
         <thead>
         <tr>
             <th scope="col">#</th>
-            <th scope="col">Book</th>
-            <th scope="col">Author</th>
-            <th scope="col">Available</th>
-            <th scope="col">Who took</th>
-            <th scope="col">Info</th>
+            <th scope="col">Имя</th>
+            <th scope="col">Фамилия</th>
+            <th scope="col">Прочитано</th>
+            <th scope="col">Читает сейчас</th>
         </tr>
         </thead>
         <tbody>
-        <#list books as book>
+        <#list employees as employee>
         <tr>
-            <th scope="row">${book.id}</th>
-            <td>${book.bookName!"-- не указано --"}</td>
-            <td>${book.authorName!"-- не указано --"}</td>
-            <td>${book.bookState}</td>
-            <td>${book.getReader()}</td>
-            <td><a href="http://localhost:9889/info" class="btn btn-light">Info</a></td>
+            <#if employee.empID == 1>
+            <th scope="row">${employee.empID}</th>
+            <td>${employee.firstName!"-- не указано --"}</td>
+            <td>${employee.lastName!"-- не указано --"}</td>
+            <td>${employee.getReadBooks()}</td>
+
+            <td>${employee.getReadNowBooks()}</td>
+            </#if>
         </tr>
         </#list>
         </tbody>

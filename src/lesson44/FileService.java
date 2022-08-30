@@ -8,15 +8,15 @@ import java.nio.file.Path;
 import java.util.List;
 
 public class FileService {
-    private List<Book> books;
-    private List<SampleDataModel.Employee> employees;
+    private List<BookModel.Book> books;
+    private List<EmployeeModel.Employee> employees;
 
     private FileService(String fileName) {
         var filePath = Path.of("data", fileName);
         Gson gson = new Gson();
         try {
-            books = List.of(gson.fromJson(Files.readString(filePath), Book[].class));
-            employees = List.of(gson.fromJson(Files.readString(filePath), SampleDataModel.Employee[].class));
+            books = List.of(gson.fromJson(Files.readString(filePath), BookModel.Book[].class));
+            employees = List.of(gson.fromJson(Files.readString(filePath), EmployeeModel.Employee[].class));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -27,11 +27,11 @@ public class FileService {
         return file;
     }
 
-    public List<Book> getBooks() {
+    public List<BookModel.Book> getBooks() {
         return books;
     }
 
-    public List<SampleDataModel.Employee> getEmployees() {
+    public List<EmployeeModel.Employee> getEmployees() {
         return employees;
     }
 }
