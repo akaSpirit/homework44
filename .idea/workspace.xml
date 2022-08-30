@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecb1e9bc-f954-4da8-aaa0-22dfc2d680dd" name="Changes" comment="added files and some logic">
-      <change afterPath="$PROJECT_DIR$/data/employee.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/employees.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/images/employee.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/books.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/books.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/books.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/employees.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/employees.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/images/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/info.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson44/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson44/BookModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson44/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson44/FileService.java" afterDir="false" />
+    <list default="true" id="ecb1e9bc-f954-4da8-aaa0-22dfc2d680dd" name="Changes" comment="added .jpg files">
+      <change beforePath="$PROJECT_DIR$/data/employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/employee.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson44/Lesson44Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson44/Lesson44Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson44/SampleDataModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson44/EmployeeModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661842489984</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="completed task1,2">
+      <created>1661862987371</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661862987371</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added .jpg files">
+      <created>1661863017147</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661863017147</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,22 +117,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created project" />
     <MESSAGE value="added files and some logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="added files and some logic" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lesson44/FileService.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lesson44/FileService.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="completed task1,2" />
+    <MESSAGE value="added .jpg files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added .jpg files" />
   </component>
 </project>

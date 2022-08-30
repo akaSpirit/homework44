@@ -22,9 +22,6 @@ public class Lesson44Server extends BasicServer {
         registerGet("/employee", this::employeeHandler);
     }
 
-
-
-
     private static Configuration initFreeMarker() {
         try {
             Configuration cfg = new Configuration(Configuration.VERSION_2_3_29);
