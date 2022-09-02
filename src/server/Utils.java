@@ -17,7 +17,6 @@ public class Utils {
                 .filter(Optional::isPresent)
                 .map(Optional::get);
         return stream.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-
     }
 
     private static Optional<Map.Entry<String, String>> decode(String kv) {
@@ -39,6 +38,4 @@ public class Utils {
         String value = URLDecoder.decode(pair[1], utf8);
         return Optional.of(Map.entry(key, value));
     }
-
-
 }

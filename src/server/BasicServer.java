@@ -156,6 +156,15 @@ public abstract class BasicServer {
         }
     }
 
+    protected void respond403(HttpExchange exchange) {
+        try {
+            var data = "403 Wrong email or password".getBytes();
+            sendByteData(exchange, ResponseCodes.NOT_FOUND, ContentType.TEXT_PLAIN, data);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     private void handleIncomingServerRequests(HttpExchange exchange) {
         var route = getRoutes().getOrDefault(makeKey(exchange), this::respond404);
         route.handle(exchange);
