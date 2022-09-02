@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecb1e9bc-f954-4da8-aaa0-22dfc2d680dd" name="Changes" comment="added .jpg files">
-      <change beforePath="$PROJECT_DIR$/data/employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/employee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson44/Lesson44Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson44/Lesson44Server.java" afterDir="false" />
+    <list default="true" id="ecb1e9bc-f954-4da8-aaa0-22dfc2d680dd" name="Changes" comment="added files to new branch homework45">
+      <change afterPath="$PROJECT_DIR$/data/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/register.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson44/UserFileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/employees.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/employees.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/employee.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson44/EmployeeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson44/EmployeeModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson44/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson44/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson44/Lesson45Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson44/Lesson45Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/BasicServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/BasicServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/ResponseCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ResponseCodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +32,44 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/homework45" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="homework45" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -36,9 +86,10 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -100,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661863017147</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added files to new branch homework45">
+      <created>1661939542794</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661939542794</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +177,7 @@
     <MESSAGE value="added files and some logic" />
     <MESSAGE value="completed task1,2" />
     <MESSAGE value="added .jpg files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added .jpg files" />
+    <MESSAGE value="added files to new branch homework45" />
+    <option name="LAST_COMMIT_MESSAGE" value="added files to new branch homework45" />
   </component>
 </project>
