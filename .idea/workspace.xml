@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecb1e9bc-f954-4da8-aaa0-22dfc2d680dd" name="Changes" comment="added files to new branch homework45">
-      <change afterPath="$PROJECT_DIR$/data/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/register.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson44/UserFileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/employees.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/employees.json" afterDir="false" />
+    <list default="true" id="ecb1e9bc-f954-4da8-aaa0-22dfc2d680dd" name="Changes" comment="added some logic task1,2">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/images/employee.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson44/EmployeeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson44/EmployeeModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson44/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson44/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson44/Lesson45Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson44/Lesson45Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/BasicServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/BasicServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/ResponseCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ResponseCodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661939542794</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added some logic task1,2">
+      <created>1662114835418</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662114835418</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +173,7 @@
     <MESSAGE value="completed task1,2" />
     <MESSAGE value="added .jpg files" />
     <MESSAGE value="added files to new branch homework45" />
-    <option name="LAST_COMMIT_MESSAGE" value="added files to new branch homework45" />
+    <MESSAGE value="added some logic task1,2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some logic task1,2" />
   </component>
 </project>
